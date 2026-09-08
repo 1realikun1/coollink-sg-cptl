@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "Please cite this versioned CPTL research archive when using these materials."
+type: software
+title: "CoolLink SG: behavior-calibrated, time-dependent pedestrian CPTL routing"
+version: 1.0.0
+date-released: '2026-09-08'
+authors:
+  - family-names: Zhang
+    given-names: Xun
+    affiliation: "National University of Singapore; Shandong Jiaotong University"
+  - family-names: Song
+    given-names: Kexin
+    affiliation: "Shandong University of Traditional Chinese Medicine"
+  - family-names: Zhang
+    given-names: Hongwei
+    affiliation: "National University of Singapore"
+  - family-names: Wang
+    given-names: Xidong
+    affiliation: "Shandong Jiaotong University; Ludong University"
+  - family-names: Yu
+    given-names: Wenlong
+    affiliation: "Shandong Jiaotong University"
+keywords:
+  - CPTL
+  - pedestrian routing
+  - heat exposure
+  - UTCI
+  - Singapore
+repository-code: "https://github.com/1realikun1/coollink-sg-cptl"
