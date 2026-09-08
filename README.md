@@ -7,6 +7,15 @@ Repository: https://github.com/1realikun1/coollink-sg-cptl
 
 Version: 1.0.1 (2026-09-08). This is a research artifact, not a pedestrian navigation service.
 
+## Persistent archives and citation
+
+- Software v1.0.1 (MIT): https://doi.org/10.5281/zenodo.22659377
+- Processed data v1.0.1 (source-specific rights): https://doi.org/10.5281/zenodo.22659464
+
+Both records list Xun Zhang, Kexin Song, Hongwei Zhang, Xidong Wang and Wenlong Yu in that order, and report the three confirmed funding awards (42301349, ZR2023QC125, 23DGLJ18). Cite the software and data records separately when both are used. The published ZIP files are identical on GitHub and Zenodo and retain their original checksums.
+
+Download `CPTL_code_v1.0.1.zip` and `CPTL_processed_data_v1.0.1.zip` from [the versioned release](https://github.com/1realikun1/coollink-sg-cptl/releases/tag/v1.0.1), then extract both into the same working directory. The code ZIP contains the complete Python source tree. GitHub also retains the earlier v1.0.0 ZIP as a historical snapshot.
+
 ## Contents and analysis boundaries
 
 | Location | Purpose |
