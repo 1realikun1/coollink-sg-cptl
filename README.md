@@ -5,11 +5,7 @@ Code, configurations and processed data supporting **Behavior-calibrated, time-d
 Authors, in order: Xun Zhang; Kexin Song; Hongwei Zhang; Xidong Wang; Wenlong Yu.
 Repository: https://github.com/1realikun1/coollink-sg-cptl
 
-Version: 1.0.0 (2026-09-08). This is a research artifact, not a pedestrian navigation service.
-
-## Download this version
-
-This repository distributes the complete code tree as `CPTL_code_v1.0.0.zip`. Download that file and the `CPTL_processed_data_v1.0.0.zip` release asset, then extract **both into the same working directory**. The folders listed below refer to the extracted code archive. The code ZIP contains the Python modules, YAML configurations, tests, citation metadata and verification reports; the data ZIP contains the processed inputs and full result tables. Check both downloads against `SHA256SUMS.txt`.
+Version: 1.0.1 (2026-09-08). This is a research artifact, not a pedestrian navigation service.
 
 ## Contents and analysis boundaries
 
@@ -20,7 +16,7 @@ This repository distributes the complete code tree as `CPTL_code_v1.0.0.zip`. Do
 | `scripts/verify_results.py` | Read-only integrity and numerical reproduction checks for the archived primary recommendations |
 | `DATA_DICTIONARY.md` | Dataset keys, units, provenance and interpretation |
 | `provenance/` | Checksums of source snapshots and files actually deposited |
-| Release attachment `CPTL_processed_data_v1.0.0.zip` | Processed data, routing inputs, full candidate/segment tables, machine-readable supplementary tables and additional Figure 7 route examples |
+| Release attachment `CPTL_processed_data_v1.0.1.zip` | Processed data, routing inputs, full candidate/segment tables, machine-readable supplementary tables and additional Figure 7 route examples |
 
 The separately developed RS-CPTL/RS-PTL satellite models are outside this archive.
 Earlier shade-proxy/preparation utilities remain as upstream dependencies and historical context; they are not alternative evidence for the reported CPTL results.
@@ -60,8 +56,12 @@ The 760 cases represent behavior-informed synthetic demand, not observed trips. 
 ## Citation and rights
 
 Use `CITATION.cff` for the five confirmed authors and this artifact version. A manuscript DOI has not been assigned. Repository URLs and any archival DOI must be cited only after the corresponding records exist.
-Code licensing was not assigned in the source project. Public access does not by itself grant a new blanket software license. See `RIGHTS.md` and the third-party notices; original data licenses continue to apply.
+Original software and associated software documentation are licensed under MIT from version 1.0.1; see `LICENSE`. Research data and third-party inputs retain their applicable rights and source licenses; see `RIGHTS.md` and `THIRD_PARTY_NOTICES.md`.
 
 ## Archive verification adjustments
 
 Scientific Python modules are copied without changing their algorithms. The pytest temporary directory was changed to a portable root-relative location. Two small domain registry GeoPackages are included as integration fixtures. One upstream CHMv2 acquisition test is explicitly skipped when the original global raw tile index is absent; all other included tests remain active. See `provenance/test_results.md` for the actual run outcomes.
+
+## Version 1.0.1
+
+This release changes licensing and documentation only. Scientific programs, configurations and data-result files are unchanged from v1.0.0. Download the matching code and data assets from https://github.com/1realikun1/coollink-sg-cptl/releases/tag/v1.0.1 . The older v1.0.0 ZIP in the repository is retained as a historical snapshot.

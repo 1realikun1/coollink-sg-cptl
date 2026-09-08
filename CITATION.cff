@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "Please cite this versioned CPTL research archive when using these materials."
 type: software
 title: "CoolLink SG: behavior-calibrated, time-dependent pedestrian CPTL routing"
-version: 1.0.0
+version: 1.0.1
 date-released: '2026-09-08'
 authors:
   - family-names: Zhang
@@ -27,3 +27,4 @@ keywords:
   - UTCI
   - Singapore
 repository-code: "https://github.com/1realikun1/coollink-sg-cptl"
+license: MIT
