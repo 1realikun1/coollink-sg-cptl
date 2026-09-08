@@ -1,0 +1,3 @@
+Software (MIT), v1.0.1: https://doi.org/10.5281/zenodo.22659377
+Processed data (source-specific rights), v1.0.1: https://doi.org/10.5281/zenodo.22659464
+GitHub release: https://github.com/1realikun1/coollink-sg-cptl/releases/tag/v1.0.1
